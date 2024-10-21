@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 90%;
+    margin-top: 0px;
+    height: auto;
+    display: flex;
+    flex: column ;
+    justify-content: start;
+}
+
+.form{
+
+    width: 80%;
+   padding: 24px;
+    display: flex;
+    flex-direction: column;
+   background-color: rgba(0, 0, 255, 0.081);
+    margin: 0px auto;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    justify-content: space-around;
+    margin-bottom: 16px;
+    
+}
+.firstname{
+    width: 50%;
+    margin-right:4px ;
+
+}
+.last{
+    width: 50%;
+}
+input[type='text'] {
+    width: 100%;
+    height: 48px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 0;
+}
+input[type='email'] {
+    width: 100%;
+    height: 48px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 0;
+}
+.name .firstname .last{
+    padding:8px
+}
+
+.query{
+
+    
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+}
+
+.real{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.rei{
+
+    margin-right: 4px;
+    width: 100%;
+
+}
+
+.textarea{
+    margin-top: 16px ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: right;
+    margin-top: 16px;
+}
+textarea{
+    height: 80px;
+    padding: 8px;
+    border: 0;
+}
+
+span{
+
+    padding-left: 8px;
+
+}
+
+.check{
+    margin-top: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.button{
+    margin-top: 16px;
+    width:100%;
+}
+
+button{
+    width:100%;
+    height: 48px;
+    background-color: blue;
+    color: white;
+    border: 0;
+}
+button:hover{
+    width:100%;
+    height: 48px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+p{
+    margin-bottom: 8px;
+}
+
+h4{
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    margin-bottom: 20px;
+    width: 100%;
+}
+.nav-left  {
+   
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items:center;
+    padding: 12px;
+}
+
+
+a{
+    padding:12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight :700; 
+    color: black;
+}
+a:hover{
+
+    color: blue;
+
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height :auto;
+    margin-top: 0px;
+
+}
